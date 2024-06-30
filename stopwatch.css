@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(49, 35, 35);
+    color: green;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+#display {
+    font-size: 8rem;
+    margin: 20px 0;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: green;
+    color: rgb(49, 35, 35);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+}
+
+#laps li {
+    font-size: 2rem;
+    margin: 5px 0;
+}
