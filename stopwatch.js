@@ -24,7 +24,7 @@ resetBtn.addEventListener('click', function() {
     elapsedTime = 0;
     isRunning = false;
     startStopBtn.textContent = 'Start';
-    display.textContent = '00:00:00';
+    display.textContent = '00:00:00:00';
     lapsList.innerHTML = '';
 });
 
@@ -46,6 +46,7 @@ function formatTime(time) {
     const hours = Math.floor(totalSeconds / 3600);
     const minutes = Math.floor((totalSeconds % 3600) / 60);
     const seconds = totalSeconds % 60;
+    const miliseconds = totalSeconds 
 
     return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
 }
